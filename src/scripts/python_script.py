@@ -1,8 +1,8 @@
 import numpy as np
 import os
 
-input_path = os.path.join(os.getcwd(), 'src', 'input')
-output_path = os.path.join(os.getcwd(), 'src', 'output')
+input_path = os.path.join('src', 'input')
+output_path = os.path.join('src', 'output')
 
 
 def verify_number(input_file, output_file):
