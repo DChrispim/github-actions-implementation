@@ -4,6 +4,9 @@ import os
 input_path = os.path.join('src', 'input')
 output_path = os.path.join('src', 'output')
 
+if not os.path.exists(output_path):
+    os.makedirs(output_path)
+
 
 def verify_number(input_file, output_file):
     with open(input_file, 'r') as f:
