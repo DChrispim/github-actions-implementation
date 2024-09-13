@@ -1,0 +1,6 @@
+10 is even
+15 is odd
+23 is odd
+3 is odd
+4 is even
+12 is even
